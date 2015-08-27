@@ -1,0 +1,157 @@
+macbook-pro:TrainsFrom sauravskumar$ mvn dependency:tree
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building trains_from 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-dependency-plugin:2.10:tree (default-cli) @ demo ---
+[INFO] org.test:demo:jar:0.0.1-SNAPSHOT
+[INFO] +- org.springframework.boot:spring-boot-starter-data-jpa:jar:1.3.0.M1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.3.0.M1:compile
+[INFO] |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.12:compile
+[INFO] |  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.12:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.15:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-aop:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:4.2.0.RC1:compile
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:compile
+[INFO] |  |  +- org.aspectj:aspectjrt:jar:1.8.6:compile
+[INFO] |  |  \- org.aspectj:aspectjweaver:jar:1.8.6:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-jdbc:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.apache.tomcat:tomcat-jdbc:jar:8.0.23:compile
+[INFO] |  |  |  \- org.apache.tomcat:tomcat-juli:jar:8.0.23:compile
+[INFO] |  |  \- org.springframework:spring-jdbc:jar:4.2.0.RC1:compile
+[INFO] |  +- org.hibernate:hibernate-entitymanager:jar:4.3.10.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.1.3.GA:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1:compile
+[INFO] |  |  +- org.hibernate:hibernate-core:jar:4.3.10.Final:compile
+[INFO] |  |  |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] |  |  |  \- org.jboss:jandex:jar:1.1.0.Final:compile
+[INFO] |  |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+[INFO] |  |  +- org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final:compile
+[INFO] |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:compile
+[INFO] |  |  \- org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO] |  +- javax.transaction:javax.transaction-api:jar:1.2:compile
+[INFO] |  +- org.springframework.data:spring-data-jpa:jar:1.9.0.M1:compile
+[INFO] |  |  \- org.springframework:spring-orm:jar:4.2.0.RC1:compile
+[INFO] |  \- org.springframework:spring-aspects:jar:4.2.0.RC1:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:1.3.0.M1:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.3.0.M1:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.0.23:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.0.23:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-logging-juli:jar:8.0.23:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.0.23:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter-validation:jar:1.3.0.M1:compile
+[INFO] |  |  \- org.hibernate:hibernate-validator:jar:5.1.3.Final:compile
+[INFO] |  |     +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  |     \- com.fasterxml:classmate:jar:1.0.0:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.5.4:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.5.4:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.5.4:compile
+[INFO] |  +- org.springframework:spring-web:jar:4.2.0.RC1:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:4.2.0.RC1:compile
+[INFO] |     \- org.springframework:spring-expression:jar:4.2.0.RC1:compile
+[INFO] +- org.neo4j:neo4j-ogm:jar:1.1.1:compile
+[INFO] |  +- org.neo4j:neo4j:jar:2.2.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-lucene-index:jar:2.2.4:compile
+[INFO] |  |  |  \- org.apache.lucene:lucene-core:jar:3.6.2:compile
+[INFO] |  |  +- org.neo4j:neo4j-graph-algo:jar:2.2.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-udc:jar:2.2.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-graph-matching:jar:2.2.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-jmx:jar:2.2.4:compile
+[INFO] |  |  \- org.neo4j:neo4j-consistency-check:jar:2.2.4:compile
+[INFO] |  +- org.neo4j.app:neo4j-server:jar:2.2.4:compile
+[INFO] |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] +- org.springframework.data:spring-data-commons:jar:1.11.0.RC1:compile
+[INFO] |  +- org.springframework:spring-core:jar:4.2.0.RC1:compile
+[INFO] |  +- org.springframework:spring-beans:jar:4.2.0.RC1:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.12:compile
+[INFO] |  \- org.slf4j:jcl-over-slf4j:jar:1.7.12:compile
+[INFO] +- org.springframework.data:spring-data-neo4j:jar:4.0.0.RC1:compile
+[INFO] |  +- org.springframework:spring-context:jar:4.2.0.RC1:compile
+[INFO] |  +- org.springframework:spring-tx:jar:4.2.0.RC1:compile
+[INFO] |  \- javax.persistence:com.springsource.javax.persistence:jar:1.0.0:compile
+[INFO] +- com.voodoodyne.jackson.jsog:jackson-jsog:jar:1.1:compile
+[INFO] +- mysql:mysql-connector-java:jar:5.1.35:runtime
+[INFO] +- org.springframework.boot:spring-boot-starter-test:jar:1.3.0.M1:test
+[INFO] |  +- org.mockito:mockito-core:jar:1.10.19:test
+[INFO] |  |  \- org.objenesis:objenesis:jar:2.1:test
+[INFO] |  +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] |  +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO] |  \- org.springframework:spring-test:jar:4.2.0.RC1:test
+[INFO] +- com.mashape.unirest:unirest-java:jar:1.4.6:compile
+[INFO] +- org.apache.httpcomponents:httpclient:jar:4.3.6:compile
+[INFO] |  +- org.apache.httpcomponents:httpcore:jar:4.4.1:compile
+[INFO] |  \- commons-codec:commons-codec:jar:1.6:compile
+[INFO] +- org.apache.httpcomponents:httpasyncclient:jar:4.0.2:compile
+[INFO] |  \- org.apache.httpcomponents:httpcore-nio:jar:4.3.2:compile
+[INFO] +- org.apache.httpcomponents:httpmime:jar:4.3.6:compile
+[INFO] +- org.json:json:jar:20141113:compile
+[INFO] +- junit:junit:jar:4.11:test
+[INFO] +- commons-io:commons-io:jar:2.4:test
+[INFO] +- org.neo4j:neo4j-kernel:test-jar:tests:2.2.4:compile
+[INFO] |  +- org.neo4j:neo4j-primitive-collections:jar:2.2.4:compile
+[INFO] |  +- org.neo4j:neo4j-io:jar:2.2.4:compile
+[INFO] |  \- org.neo4j:neo4j-csv:jar:2.2.4:compile
+[INFO] +- org.neo4j.app:neo4j-server:test-jar:tests:2.2.4:compile
+[INFO] |  +- org.neo4j:neo4j:pom:2.2.4:compile
+[INFO] |  +- org.neo4j:neo4j-kernel:jar:2.2.4:compile
+[INFO] |  +- org.neo4j:server-api:jar:2.2.4:compile
+[INFO] |  |  \- org.neo4j.3rdparty.javax.ws.rs:jsr311-api:jar:1.1.2.r612:compile
+[INFO] |  +- org.neo4j:neo4j-cypher:jar:2.2.4:compile
+[INFO] |  |  +- org.scala-lang:scala-library:jar:2.10.5:compile
+[INFO] |  |  +- org.scala-lang:scala-reflect:jar:2.10.5:compile
+[INFO] |  |  +- org.neo4j:neo4j-cypher-compiler-1.9:jar:2.0.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-cypher-compiler-2.0:jar:2.0.4:compile
+[INFO] |  |  +- org.neo4j:neo4j-cypher-compiler-2.1:jar:2.1.8:compile
+[INFO] |  |  +- org.neo4j:neo4j-cypher-compiler-2.2:jar:2.2.4:compile
+[INFO] |  |  +- org.parboiled:parboiled-scala_2.10:jar:1.1.7:compile
+[INFO] |  |  |  \- org.parboiled:parboiled-core:jar:1.1.7:compile
+[INFO] |  |  +- net.sf.opencsv:opencsv:jar:2.3:compile
+[INFO] |  |  \- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.4:compile
+[INFO] |  +- org.neo4j.app:neo4j-browser:jar:2.2.4:compile
+[INFO] |  +- ch.qos.logback:logback-classic:jar:1.1.3:compile
+[INFO] |  |  \- ch.qos.logback:logback-core:jar:1.1.3:compile
+[INFO] |  +- ch.qos.logback:logback-access:jar:1.1.3:compile
+[INFO] |  +- org.codehaus.janino:janino:jar:2.7.8:compile
+[INFO] |  |  \- org.codehaus.janino:commons-compiler:jar:2.7.8:compile
+[INFO] |  +- org.eclipse.jetty:jetty-server:jar:9.2.11.v20150529:compile
+[INFO] |  |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] |  |  +- org.eclipse.jetty:jetty-http:jar:9.2.11.v20150529:compile
+[INFO] |  |  |  \- org.eclipse.jetty:jetty-util:jar:9.2.11.v20150529:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-io:jar:9.2.11.v20150529:compile
+[INFO] |  +- org.eclipse.jetty:jetty-webapp:jar:9.2.11.v20150529:compile
+[INFO] |  |  +- org.eclipse.jetty:jetty-xml:jar:9.2.11.v20150529:compile
+[INFO] |  |  \- org.eclipse.jetty:jetty-servlet:jar:9.2.11.v20150529:compile
+[INFO] |  |     \- org.eclipse.jetty:jetty-security:jar:9.2.11.v20150529:compile
+[INFO] |  +- com.sun.jersey:jersey-server:jar:1.19:compile
+[INFO] |  |  \- com.sun.jersey:jersey-core:jar:1.19:compile
+[INFO] |  +- com.sun.jersey:jersey-servlet:jar:1.19:compile
+[INFO] |  +- commons-configuration:commons-configuration:jar:1.10:compile
+[INFO] |  |  \- commons-logging:commons-logging:jar:1.1.1:compile
+[INFO] |  +- commons-digester:commons-digester:jar:2.1:compile
+[INFO] |  |  \- commons-beanutils:commons-beanutils:jar:1.9.2:compile
+[INFO] |  |     \- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile
+[INFO] |  |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+[INFO] |  |  \- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+[INFO] |  +- org.rrd4j:rrd4j:jar:2.2:compile
+[INFO] |  +- org.mozilla:rhino:jar:1.7R4:compile
+[INFO] |  +- bouncycastle:bcprov-jdk16:jar:140:compile
+[INFO] |  +- com.sun.jersey.contribs:jersey-multipart:jar:1.19:compile
+[INFO] |  |  \- org.jvnet.mimepull:mimepull:jar:1.9.3:compile
+[INFO] |  \- org.neo4j:neo4j-shell:jar:2.2.4:compile
+[INFO] |     \- org.apache.servicemix.bundles:org.apache.servicemix.bundles.jline:jar:0.9.94_1:compile
+[INFO] \- org.neo4j:neo4j-io:test-jar:tests:2.2.4:compile
+[INFO]    \- org.neo4j:neo4j-unsafe:jar:2.2.4:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 17.178 s
+[INFO] Finished at: 2015-08-27T19:44:27+05:30
+[INFO] Final Memory: 21M/125M
+[INFO] ------------------------------------------------------------------------
